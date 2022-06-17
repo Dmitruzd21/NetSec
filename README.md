@@ -28,15 +28,19 @@
 
 ## **Задание 4**
 
-![ExploitDatabaseExploits](/ExploitDatabaseExploitsForPenetrationTester1.png)
+![ExploitDatabaseExploits1](/ExploitDatabaseExploitsForPenetrationTester1.png)
 
-![ОС](/ApacheHttpdMod_proxyErrorPageCrossSiteScr.png)
+![Apache Httpd mod_proxy - Error Page Cross-Site Scripting](/ApacheHttpdMod_proxyErrorPageCrossSiteScr.png)
 
-![ОС](/ApacheHttpdMod_rewriteOpenRedirectsMultip.png)
+![Apache Httpd mod_rewrite - Open Redirects](/ApacheHttpdMod_rewriteOpenRedirectsMultip.png)
+
+![ExploitDatabaseExploits2](/Exploit%20DatabaseExploitsForPenetrationTester2.png)
 
 Уязвимости, которым подвержен данный сервер (проверено при помощи сайта exploit.db):
 
 - Apache Httpd mod_proxy - Error Page Cross-Site Scripting
 - Apache Httpd mod_rewrite - Open Redirects
+- Apache 2.4.7 mod_status - Scoreboard Handling Race Condition
+- Apache 2.4.7 + PHP 7.0.2 - 'openssl_seal()' Uninitialized Memory Code Execution
 
 Уязвимостей со стороны других сервисов не обнаружено.
